@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 // Components imports
-import FunctionalComponent from "./components/FunctionalComponent";
-import ClassComponent from "./components/ClassComponent";
+import AwesomeWidget from "./components/AwesomeWidget";
+import IntervalTicker from "./components/IntervalTicker";
+
 // CSS imports 
 import "./css/App.css";
 
@@ -9,8 +10,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <FunctionalComponent />
-        <ClassComponent />
+        <AwesomeWidget />
+        <IntervalTicker />
       </div>
     );
   }

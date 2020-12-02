@@ -1,6 +1,6 @@
 import React from 'react';
 
-const AwesomeWidget = ({count}) => {
+const AwesomeWidget = () => {
     return (
         <div>
             <p> This is your count: {}</p>
